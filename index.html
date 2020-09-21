@@ -166,7 +166,10 @@
         <script src="js/serviceWorker.js"></script>
         <script src="js/main.js"></script>
         <script>
-            navigator.serviceWorker.register('serviceWorker.js');
+            // Registering our Service worker
+            if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('serviceWorker.js', { scope: './' })
+            }
         </script>
     </body>
 </html>
