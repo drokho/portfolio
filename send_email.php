@@ -20,13 +20,16 @@ $headers = "" .
 $headers .= 'MIME-Version: 1.0' . "\r\n";
 $headers .= "From: " . $from .  "\r\n";	
 
-if(mail($to,"New TGX Lead",$body, $headers) && $name!="") 
-{ 
-	echo "Thank you for contacting me, I will get back to you as soon as I can!</h3>";
-}
-else
+if($name != "" ) 
 {
-	echo "<h3>Oops! This is embarrasing! Something must have gone wrong. Can you please fill out the form again?</h3>";
+    if(mail($to,"New TGX Lead",$body, $headers)) 
+    { 
+        echo "Thank you for contacting me, I will get back to you as soon as I can!</h3>";
+    }
+    else
+    {
+        echo "<h3>Oops! This is embarrasing! Something must have gone wrong. Can you please fill out the form again?</h3>";
+    }
 }
  
   
