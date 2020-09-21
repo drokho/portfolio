@@ -71,6 +71,7 @@ $(document).ready(function() {
 					'message': $('#message').val()
 				},
 				success:function (response) {
+                    $('.response').show();
 					$('.response').html(response);
 				}          
 			});  
