@@ -22,6 +22,7 @@ $headers .= "From: " . $from .  "\r\n";
 
 if($name != "" ) 
 {
+    echo $name;
     if(mail($to,"New TGX Lead",$body, $headers)) 
     { 
         echo "Thank you for contacting me, I will get back to you as soon as I can!</h3>";
