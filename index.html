@@ -5,8 +5,13 @@
         <title>TGX :: Design | Develop</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#cccccc" />
         <meta name="description" content="Building websites for small business using today's best tools and methods.">
         <meta name="author" content="Brandon Gamble">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" type="application/manifest+json" href="site.webmanifest">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
@@ -158,6 +163,11 @@
         </div> 
         <script src="js/jquery.hoverdir.js"></script>
         <script src="js/validate.js"></script>
+        <script src="js/serviceWorker.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            alert(window.innerWidth);
+            serviceWorker.register();
+        </script>
     </body>
 </html>
