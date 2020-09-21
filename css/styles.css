@@ -1,0 +1,339 @@
+body {
+    font-family: "Droid Sans", Helvetica, Verdana, Arial, sans;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+a {
+    color: #96b700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-head {
+    font-family: 'Oswald';
+    font-size: 30px;
+    text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+    margin-bottom: 70px;
+}
+
+.page_header {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background-color: #2f2f2f;
+    box-shadow: 0px 5px 10px 0px #000;
+}
+
+.main_nav {
+    text-align: center;
+}
+
+.main_nav-link {
+    display: inline-block;
+    width:  200px;
+    padding: 20px;
+    border-bottom: 1px solid #2f2f2f;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height:  0px;
+	transition: .5s border;
+}
+
+.main_nav-link:hover {
+    border-bottom: 1px solid #96b700;
+}
+
+.main_nav-img {
+    vertical-align: middle;
+}
+
+.tiny-logo {
+	width: 32px;	
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+main {
+    background-color: #f0f6db;
+}
+
+.fullscreen-bg {
+    margin-top: 40px; 
+    padding: 30px 0;
+    background-image: url('../images/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: top center;
+	background-color: #2f2f2f;
+}
+
+.hero {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.hero_subtitle-dark:before,
+.hero_subtitle-dark:after,
+.button_holder:before,
+.button_holder:after {
+    display: inline-block;
+    content: " ";
+    height: 26px;
+    width: 20%;
+    max-width: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero_subtitle-dark:before {
+    margin-right: 5%;
+    background-image: url('../images/arrow_gray-left.png');
+}
+
+.hero_subtitle-dark:after {
+    margin-left: 5%;
+    background-image: url('../images/arrow_gray-right.png');
+}
+
+.hero_subtitle-dark {
+    margin: 50px auto;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+.hero_text {
+    text-align: center;
+}
+
+.gallery {
+    margin: 100px 0;
+}
+
+.gallery .container {
+    max-width: 1250px
+}
+
+.da-thumbs {
+    position: relative;
+	list-style: none;
+	width: 1200px;
+	/* height: 600px; */
+	margin: 20px auto;
+    padding: 0;
+    text-align: center;
+}
+.da-thumbs li {
+	display: inline-block;
+	margin: 5px;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: #333;
+	background: rgba(75,75,75,0.9);
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li a div span {
+	display: block;
+	padding: 10px 0;
+	margin: 40px 20px 20px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+
+.da-thumbs .hidden {
+	height: 0px;
+}
+
+.da-thumbs .show {
+	height: 300px;
+}
+
+.card-text {
+	color: #fff;
+    font-weight: bold;
+}
+
+.card-text .dev {
+    padding-top: 80px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.wp {
+    background-image: url('../images/wp-logo.png');
+}
+
+.local {
+    background-image: url('../images/wedolocal-logo.png');
+}
+
+
+/*
+.gallery_link {
+    display: block;
+    height: 280px;
+    width: 380px;
+    margin-bottom: 20px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.gallery_link-arise { background-image: url('../images/arise-small.jpg'); }
+.gallery_link-phillytime { background-image: url('../images/phillytime-small.jpg'); }
+.gallery_link-cupcake { background-image: url('../images/cupcake-small.jpg'); }
+.gallery_link-firstimpressions { background-image: url('../images/first-impressions-small.jpg'); }
+.gallery_link-aaascreening { background-image: url('../images/aaascreening-small.jpg'); }
+.gallery_link-rlbmrocks { background-image: url('../images/rlbm-small.jpg'); }
+*/
+.button_holder {
+    text-align: center;
+    width: 1040px;
+    margin: 50px auto;
+}
+
+.button_holder:before {
+    margin-right: 50px;
+    background-image: url('../images/arrow_white-left.png');
+}
+
+.button_holder:after {
+    margin-left: 50px;
+    background-image: url('../images/arrow_white-right.png');
+}
+
+.content {
+    padding: 100px 0;
+}
+
+.home .content {
+    text-align: center;
+}
+
+.icon_heading {
+    padding-top: 100px;
+    font-family: 'Oswald';
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.icon_heading-magnify {background-image: url('../images/icon-magnifying-glass.png');}
+.icon_heading-grid {background-image: url('../images/icon-grid.png');}
+.icon_heading-gear {background-image: url('../images/icon-gear.png');}
+
+.icon_paragraph {
+    padding: 0 40px;
+}
+
+.page_footer {
+    padding: 60px 0;
+    background-color: #2f2f2f;
+    color: #fff;
+    font-size: 14px;
+}
+
+.page_footer h2 {
+	margin-left: 10px;
+}
+
+.footer_iconlink,
+.footer_iconlink:visited {
+    display: inline-block;
+    padding: 5px 40px;
+    color: #fff;
+    text-decoration: none;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    transition: background-position .25s
+}
+
+.footer_iconlink-facebook {background-image: url('../images/icon-tiny-fb.png')}
+.footer_iconlink-email {background-image: url('../images/icon-tiny-mail.png')}
+.footer_iconlink-phone {background-image: url('../images/icon-tiny-phone.png')}
+
+.footer_iconlink:hover,
+.footer_iconlink:visited:hover {
+    background-position: 10px center;
+    transition: background-position .25s
+}
+
+
+
+.page_footer p {
+	margin-top: 0;	
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+	width: 100%;
+    background-color: #000;
+    border: 0;
+    padding: 10px 15px;
+    color: #ccc;
+}
+
+textarea {
+	height: 128px;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: #96b700;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px
+}
+
+input[type="submit"]:hover {
+	background-color: #777;
+}
+
+.secure {
+    display: none;
+}
+
+.circle-img img {
+	border-radius: 1000px;
+	width: 60%;
+	margin: 20px 0;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TGX :: Design | Develop</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Building websites for small business using today's best tools and methods.">
+        <meta name="author" content="Brandon Gamble">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/grid.css" rel="stylesheet">
+        <link href="css/utility.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/mq.css" rel="stylesheet">
+        <script src="js/modernizr.custom.97074.js"></script>
+    </head>
+    <body class="home" id="home">
+        <div id="app">
+            <div class="wrapper">
+                <header class="page_header">
+                    <nav class="main_nav container">
+                        <ul class="horizontal-list">
+                            <li><a class="main_nav-link" href="#home"><i class="fas fa-home"></i><span class="nav-text">Home</span></a></li>
+                            <li><a class="main_nav-link" href="#work"><i class="fas fa-laptop"></i><span class="nav-text">Work</span></a></li> 
+                            <li class="tiny-logo"><a href="#"><img class="main_nav-img"src="images/logo-small.png" alt="TyphoonGraphix logo"></a></li>
+                            <li><a class="main_nav-link" href="#about"><i class="fas fa-question-circle"></i><span class="nav-text">About</span></a></li>
+                            <li><a class="main_nav-link" href="#contact"><i class="fas fa-envelope-open"></i><span class="nav-text">Contact</span></a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                    <div class="fullscreen-bg">
+                        <section class="hero">
+                            <div class="container">
+                                <h1 class="align-center">
+                                    <img class="big-logo" src="images/logo-big.png" alt="TyphoonGraphix Logo" />
+                                </h1>
+                                <h2 class="hero_subtitle-dark">Design &amp; Develop</h2>
+                                <p class="hero_text">I specialize in enhancing the image of small business. I can create a beautiful, usable design for your company and apply it to a content management system like Wordpress, or create you a custom website from scratch. If you have an idea for a web based application, I can leverage modern web technologies such as Node, Express, React, Angular, Vue, MongoDB, etc, to bring it to life. If you just want to show off, I can even make you a single page brochure site complete with self-emailing contact forms. </p>
+                                <p class="hero_text bold">In short, I have the creative and analytical ability to handle all your website needs.</p>
+                            </div>
+                        </section>
+                        <section class="gallery">
+                            <h2 class="section-head" id="work">Some of My Work</h2>
+                            <div class="container">
+                                <ul id="da-thumbs" class="da-thumbs">
+                                    <li>
+                                        <a href="http://arisewealth.com/">
+                                            <img src="images/arise-small.jpg" alt="AriseKC.com Thumbnail" />
+                                            <div class="card-text">
+                                                <span>AriseKC.com</span>
+                                                <p class="dev wp">Wordpress template design</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="http://www.buildwithjrg.com/">
+                                            <img src="images/jrg-construction.jpg" alt="BuildWithJRG.com Thumbnail" />
+                                            <div class="card-text">
+                                                <span>BuildWithJRG.com</span>
+                                                <p class="dev wp">Wordpress template design</p>
+                                            </div>
+                                        </a>
+                                    </li> 
+                                    <li>
+                                        <a href="http://www.cupcakealamode.com/">
+                                            <img src="images/cupcake-small.jpg" alt="CupcakeAlaMode.com Thumbnail" />
+                                            <div class="card-text">
+                                                <span>CupcakeAlaMode.com</span>
+                                                <p class="dev local">WeDoLocal template design and customization</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                -->
+
+                                    <li>
+                                        <a href="http://www.gonewiththegrain.com/">
+                                            <img src="images/grain-small.jpg" alt="GoneWithTheGrain.com Thumbnail" />
+                                            <div class="card-text">
+                                                <span>GoneWithTheGrain.com</span>
+                                                <p class="dev wp">Wordpress template customization</p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                                <!-- 
+                                <div class="button_holder button_holder-light">
+                                    <a class="button more-work" href="">More Work</a>
+                                </div> -->
+                            </div>
+                        </section>
+                    </div>
+                    <section class="content" id="about">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-2">
+                                    <h2 class="icon_heading icon_heading-magnify">Discover</h2>
+                                    <p class="icon_paragraph">Before starting any project I want to get to know my clients first and learn about their business and goals. Context is key to creating a clear project approach and successful product.</p>
+                                </div>
+                                <div class="col-2">
+                                    <h2 class="icon_heading icon_heading-grid">Design</h2>
+                                    <p class="icon_paragraph">Your project should not only look amazing, it has to be engaging and work in the real world. With a strong technical understanding of development I design an interface your users can count on to be engaging and friendly.</p>
+                                </div>
+                                <div class="col-2">
+                                    <h2 class="icon_heading icon_heading-gear">Develop</h2>
+                                    <p class="icon_paragraph">I take my experience from working at large companies and translate it to your project. Along with reliability and dependability, meeting tight deadlines and making my customers happy is the key to development success.   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <div class="push"></div>
+            </div>
+            <footer class="page_footer" id="contact">
+                <div class="container footer_container">
+                    <form action="send_email.php" method="post"  name="info" id="info">
+                    <h2>Contact Me!</h2>
+                    <div class="row">
+                        <div class="col-2">
+                            <ul class="reset-list">
+                                <li><a class="footer_iconlink footer_iconlink-facebook" href="http://www.facebook.com/typhoongraphix">Facebook</a></li>
+                                <li><a class="footer_iconlink footer_iconlink-email" href="mailto:brandon@tgx1.com">brandon@tgx1.com</a></li>
+                                <li><a class="footer_iconlink footer_iconlink-phone" href="tel:7347094024">734.709.4024</a></li>
+                            </ul>
+                            <div class="circle-img">
+                                <img src="images/me.jpg" alt="Image of me giving a big thumb's up!" />
+                            </div>
+
+                        </div>
+                        <div class="col-2">
+                            <p><label for="name">Name</label><input name="name" type="text" id="name" /></p>
+                            <p><label for="email">Email</label><input name="email" type="email" id="email" /></p>
+                            <p><label for="phone">Phone</label><input name="phone" type="phone" id="phone" /></p>
+                        </div>
+                        <div class="col-2">
+
+
+
+                                <p><label for="message">Message</label>
+                                <textarea rows="10" cols="30" name="message" id="message"></textarea></p>
+                                <p><input type="submit" value="Send" id="submit" class="btn"/></p>
+                                <input type="text" class="secure" id="honeypot" />
+
+                            <div class="response"></div>
+                        </div>
+                    </div>
+                    </form>
+                    <p class="copyright">&copy; Copyright {{ date }} TyphoonGraphix. All rights reserved. </p>
+                </div>
+            </footer>
+        </div> 
+        <script src="js/jquery.hoverdir.js"></script>
+        <script src="js/validate.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
