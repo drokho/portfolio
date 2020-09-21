@@ -13,4 +13,5 @@ deployment:
     - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp send_email.php $DEPLOYPATH
+    - /bin/cp serviceWorker.js $DEPLOYPATH
     - /bin/cp site.webmanifest $DEPLOYPATH
