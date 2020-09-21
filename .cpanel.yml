@@ -5,5 +5,12 @@ deployment:
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp android-chrome-192x192.png $DEPLOYPATH
+    - /bin/cp android-chrome-512x512.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon.png $DEPLOYPATH
+    - /bin/cp favicon-16x16.png $DEPLOYPATH
+    - /bin/cp favicon-32x32.png $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp send_email.php $DEPLOYPATH
+    - /bin/cp site.webmanifest $DEPLOYPATH
